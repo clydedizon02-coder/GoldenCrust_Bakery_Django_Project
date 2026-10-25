@@ -81,7 +81,5 @@ GoldenCrust_Bakery_Django_Project/
 | Gallery | `/gallery/`  | Photo showcase                 |
 | Contact | `/contact/`  | Location, hours, contact form  |
 
-## Author
 
-Clyde Uriel Wystan Dizon  
-DMMMSU-NLUC – College of Information Technology
+DMMMSU-NLUC – College of Information System
