@@ -1,0 +1,33 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Contact Us - Golden Crust Bakery{% endblock %}
+
+{% block content %}
+<section class="section">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+        <div class="contact-info">
+            <h3>Visit Our Bakery</h3>
+            <p><strong>Address:</strong><br>National Highway, Bacnotan, La Union</p>
+            <p><strong>Phone:</strong> (072) 123-4567</p>
+            <p><strong>Email:</strong> hello@goldencrustbakery.ph</p>
+            <p><strong>Hours:</strong><br>
+                Monday – Saturday: 6:00 AM – 7:00 PM<br>
+                Sunday: 7:00 AM – 5:00 PM
+            </p>
+            <p>We look forward to serving you fresh bread and pastries every day!</p>
+        </div>
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form method="post" action="#">
+                {% csrf_token %}
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}
