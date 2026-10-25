@@ -1,6 +1,6 @@
 # Golden Crust Bakery – Django Final Project
 
-A multi-page bakery website built with **Django Templates** for the DMMMSU-NLUC College of Information Technology Final Project (Django Templates & GitHub).
+A multi-page bakery website built with **Django Templates** for the DMMMSU-NLUC College of Information System Final Project (Django Templates & GitHub).
 
 ## Project Overview
 
